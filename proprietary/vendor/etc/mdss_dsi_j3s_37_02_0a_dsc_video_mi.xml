@@ -2,7 +2,7 @@
 <root>
     <color>
         <NodeTree>
-            <NodeName>lcm cta unlimitedCT eyeCare hbm ccbb wpCalib sunlightScreen maxBrightness gabb dcBacklight PaperMode TrueTone</NodeName>
+            <NodeName>lcm cta unlimitedCT eyeCare hbm ccbb wpCalib sunlightScreen maxBrightness gabb dcBacklight PaperMode videoBox TrueTone</NodeName>
         </NodeTree>
         <lcm>
             <lcmParamName>lcm_num lcm_array</lcmParamName>
@@ -163,6 +163,12 @@
             <paperCoeff1>0.686 0.262 0.052 0.146 0.816 0.038 0.08 0.268 0.652</paperCoeff1>
             <paperCoeff2>0.218 0.693 0.089 0.218 0.693 0.089 0.218 0.693 0.089</paperCoeff2>
         </PaperMode>
+        <videoBox>
+            <videoBoxParamName>ModeIdWithLtm BWModeId LtmStrength</videoBoxParamName>
+            <ModeIdWithLtm>1</ModeIdWithLtm>
+            <BWModeId>4</BWModeId>
+            <LtmStrength>10000</LtmStrength>
+        </videoBox>
         <TrueTone>
             <TrueToneParamName>luxZoneNum luxZone0 luxZone1 luxZone2 luxZone3 luxZone4 luxZone5 cctThreshold cctStep TrueTonedimmingTime nativeCCTZone trueToneMinCCT CloseDimmingTime CloseDimmingStep</TrueToneParamName>
             <luxZoneNum>6</luxZoneNum>
