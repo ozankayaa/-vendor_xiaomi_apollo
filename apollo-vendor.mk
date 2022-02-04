@@ -9,7 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/apollo/proprietary/system/system/lib/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib/vendor.xiaomi.hardware.campostproc@1.0.so \
     vendor/xiaomi/apollo/proprietary/system/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so \
     vendor/xiaomi/apollo/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/xiaomi/apollo/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar \
     vendor/xiaomi/apollo/proprietary/vendor/bin/batterysecret:$(TARGET_COPY_OUT_VENDOR)/bin/batterysecret \
     vendor/xiaomi/apollo/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor/xiaomi/apollo/proprietary/vendor/bin/init.qcom.sensors.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sensors.sh \
@@ -751,4 +750,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON
+    HotwordEnrollmentXGoogleHEXAGON \
+    com.android.hotwordenrollment.common.util
